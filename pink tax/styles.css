@@ -1,0 +1,426 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1c1c1e; /* Black background */
+    color: #ffffff; /* White text color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #000000; /* Pink header */
+    padding: 20px 0;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+  }
+ 
+  
+  /* Hero Section */
+  .hero {
+    background-color: #ff1493; /* Pink background */
+    color: #ffffff;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .cta-button {
+    background-color: #000000; /* Black button */
+    color: #ffffff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff69b4; /* Light pink hover */
+  }
+  
+  /* Info Sections */
+  /* Apply background color and padding to the section */
+#why-it-matters {
+  background-color: white;
+  padding: 50px 0;
+}
+
+#why-it-matters .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#why-it-matters h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+#why-it-matters .points-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+#why-it-matters .points-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px #ff1493;
+}
+
+#why-it-matters .icon-box {
+  margin-bottom: 20px;
+}
+
+#why-it-matters .icon-box img {
+  width: 80px;
+  height: auto;
+}
+
+#why-it-matters .text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #444;
+  text-align: center;
+}
+
+#why-it-matters .text p {
+  font-size: 1rem;
+  color: #666;
+  text-align: center;
+}
+
+  
+  
+  /* Impact Section */
+#impact {
+  background-color: #ff1493;
+  padding: 50px 0;
+}
+
+#impact .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#impact h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+#impact ul {
+  list-style: none;
+  padding: 0;
+  color: white;
+  font-size: 1.1rem;
+}
+
+#impact ul li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+#impact ul li::before {
+  content: "•";
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+  
+  /* Statistics Section */
+  /* Apply background color and padding to the section */
+#statistics {
+  background-color: white;
+  padding: 50px 0;
+}
+
+#statistics .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#statistics h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+#statistics .statistics-list {
+  list-style: none;
+  padding: 0;
+  color: #444;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+#statistics .statistics-list li {
+  margin-bottom: 20px;
+}
+
+#statistics .statistics-list li strong {
+  color: #ff1493; /* Highlight important facts with deep pink */
+  font-weight: bold;
+}
+
+  
+  /* Carousel */
+  /* Section Styling */
+#impact-on-daily-life {
+  background-color: #ff1493; /* Pink background */
+  padding: 50px 0;
+}
+
+#impact-on-daily-life .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#impact-on-daily-life h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white; /* White text to contrast with the pink background */
+}
+
+/* Carousel Styling */
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section Styling */
+#impact-on-daily-life {
+  padding: 50px 0;
+  background-color: #ff1493; /* Pink background for the section */
+  color: #fff;
+}
+
+#impact-on-daily-life h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #fff; /* White color for the section heading */
+  margin-bottom: 30px;
+}
+
+/* Carousel Styles */
+.carousel {
+  position: relative;
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.carousel-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-card {
+  flex: 0 0 33.33%; /* Show 3 cards at a time */
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #fff; /* White card background */
+  color: #333; /* Dark text color */
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.carousel-card h3 {
+  font-size: 24px;
+  color: #ff1493; /* Pink color for card titles */
+  margin-bottom: 15px;
+}
+
+.carousel-card p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Carousel Button Styles */
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  color: #ff1493;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.carousel-button.prev {
+  left: 10px;
+}
+
+.carousel-button.next {
+  right: 10px;
+}
+
+.carousel-button:hover {
+  background-color: #ff1493;
+  color: #fff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .carousel-card {
+      flex: 0 0 100%; /* Show one card at a time on smaller screens */
+  }
+}
+
+
+/* FAQ Section Styling */
+#faq {
+  padding: 50px 0;
+  background-color: #fff;
+  color: #333;
+}
+
+#faq h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #ff1493; /* Pink color for main heading */
+  margin-bottom: 30px;
+}
+
+.faq-item {
+  border: 2px solid #ff1493; /* Pink border */
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.faq-item:hover {
+  background-color: #fff0f5; /* Light pink on hover */
+  transform: translateY(-5px); /* Subtle hover effect */
+}
+
+.faq-item h3 {
+  font-size: 24px;
+  color: #ff1493; /* Pink color for FAQ questions */
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 18px;
+  color: #333; /* Darker color for readability */
+  margin: 0;
+}
+
+/* Container Styling */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #faq h2 {
+      font-size: 28px;
+  }
+
+  .faq-item h3 {
+      font-size: 20px;
+  }
+
+  .faq-item p {
+      font-size: 16px;
+  }
+}
+
+  
+  /* Newsletter Signup */
+  #newsletter-signup {
+    background-color: #ff1493; /* Pink background */
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  #newsletter-signup form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #newsletter-signup input {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  #newsletter-signup button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #000000; /* Black button */
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #newsletter-signup button:hover {
+    background-color: #ff69b4; /* Light pink hover */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #000000; /* Black background */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
